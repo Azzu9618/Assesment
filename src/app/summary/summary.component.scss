@@ -1,0 +1,44 @@
+.summary-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #555;
+    }
+  
+    .summary-statistics {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      
+      .stat {
+        padding: 10px 20px;
+        background-color: #f1f1f1;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+      }
+  
+      .correct {
+        background-color: #28a745;
+        color: white;
+      }
+  
+      .incorrect {
+        background-color: #dc3545;
+        color: white;
+      }
+    }
+  }
+  
